@@ -31,10 +31,11 @@ public class StoreListServlet extends HttpServlet {
         out.close();
 
     }
+
     public List<Product> getProductList() {
         return Arrays.asList(
 
-                new Product(1, "milk",60 ),
+                new Product(1, "milk", 60),
                 new Product(2, "bread", 40),
                 new Product(3, "orange", 90),
                 new Product(4, "banana", 95),

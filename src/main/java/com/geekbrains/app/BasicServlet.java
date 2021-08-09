@@ -15,7 +15,7 @@ public class BasicServlet implements Servlet {
 
     @Override
     public void init(ServletConfig config) throws ServletException {
-    this.config = config;
+        this.config = config;
     }
 
     @Override
@@ -25,8 +25,8 @@ public class BasicServlet implements Servlet {
 
     @Override
     public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
-    logger.info("Log: New request");
-    res.getWriter().println("<h1>Servlet content</h1>");
+        logger.info("Log: New request");
+        res.getWriter().println("<h1>Servlet content</h1>");
     }
 
     @Override
@@ -36,7 +36,7 @@ public class BasicServlet implements Servlet {
 
     @Override
     public void destroy() {
-        logger.info("Servlet {} destroyed",getServletInfo());
+        logger.info("Servlet {} destroyed", getServletInfo());
 
     }
 }

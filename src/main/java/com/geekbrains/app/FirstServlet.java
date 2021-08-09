@@ -17,7 +17,7 @@ public class FirstServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         logger.info("User agent: {}", req.getHeader("User-agent"));
         resp.setHeader("Content-Type", "text/html; charset=utf-8");
-               resp.getWriter().printf("<h1>New GET request with parameters param1 = %s; param2 = %s </h1>",
+        resp.getWriter().printf("<h1>New GET request with parameters param1 = %s; param2 = %s </h1>",
                 req.getParameter("param1"), req.getParameter("param2"));
 
     }
