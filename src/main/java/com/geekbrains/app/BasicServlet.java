@@ -7,6 +7,7 @@ import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
 
+
 @WebServlet(name = "BasicServlet", urlPatterns = "/basic_servlet")
 public class BasicServlet implements Servlet {
 

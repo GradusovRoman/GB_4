@@ -14,6 +14,7 @@ import java.util.Arrays;
 import java.util.List;
 
 
+
 public class StoreListServlet extends HttpServlet {
     private static Logger logger = LoggerFactory.getLogger(StoreListServlet.class);
 
