@@ -13,7 +13,6 @@ import java.util.Optional;
 
 import static org.springframework.beans.factory.config.ConfigurableBeanFactory.SCOPE_PROTOTYPE;
 
-
 @Service
 @Scope(SCOPE_PROTOTYPE)
 @Component("cart")

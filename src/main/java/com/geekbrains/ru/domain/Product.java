@@ -1,6 +1,5 @@
 package com.geekbrains.ru.domain;
 
-
 public class Product {
     private long id;
     private String name;
