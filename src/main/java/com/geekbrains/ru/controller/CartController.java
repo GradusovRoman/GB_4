@@ -1,6 +1,5 @@
 package com.geekbrains.ru.controller;
 
-
 import com.geekbrains.ru.service.CartService;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Scope;

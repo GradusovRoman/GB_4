@@ -4,21 +4,15 @@ import com.geekbrains.ru.configuration.AppConf;
 import com.geekbrains.ru.controller.CartController;
 import com.geekbrains.ru.controller.ProductController;
 import com.geekbrains.ru.domain.Product;
-import com.geekbrains.ru.repository.ProductRepository;
-import com.geekbrains.ru.service.CartService;
 import com.geekbrains.ru.service.ProductService;
 import com.geekbrains.ru.service.impl.CartServiceImpl;
-import com.geekbrains.ru.service.impl.ProductServiceImpl;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import javax.sound.midi.Soundbank;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.sql.SQLOutput;
 import java.util.List;
 import java.util.Optional;
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {

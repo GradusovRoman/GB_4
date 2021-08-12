@@ -4,5 +4,4 @@ public interface CartService {
     boolean addProduct(long id);
     boolean removeProduct(long id);
 
-
 }
